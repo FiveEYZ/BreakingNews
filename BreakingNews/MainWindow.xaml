@@ -1,0 +1,31 @@
+﻿<Window x:Class="BreakingNews.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BreakingNews"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="215.6" Width="401.8">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="134,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center" FontSize="16"/>
+        <Button x:Name="buttonGetStats" Content="Get Stats" HorizontalAlignment="Left" Margin="157,110,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" Height="27" FontSize="16"/>
+        <GroupBox x:Name="groupBoxKeywords" Header="Keywords" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="87" Width="169">
+            <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="4,3,0,-26">
+                <RadioButton x:Name="radioButtonEkonomi" Content="Ekonomi" GroupName="Keywords" Height="15" IsChecked="True"/>
+                <RadioButton x:Name="radioButtonPolis" Content="Polis" GroupName="Keywords" Height="15"/>
+                <RadioButton x:Name="radioButtonTrump" Content="Trump" GroupName="Keywords" Height="15"/>
+                <RadioButton x:Name="radioButtonHemlig" Content="Hemlig" GroupName="Keywords" Height="15"/>
+
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="groupBoxWebsites" Header="Websites" HorizontalAlignment="Left" Margin="214,10,0,0" VerticalAlignment="Top" Height="87" Width="169">
+            <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="123" Margin="4,3,0,-26">
+                <RadioButton x:Name="radioButtonAftonbladet" Content="Aftonbladet" GroupName="Websites" Height="15" IsChecked="True"/>
+                <RadioButton x:Name="radioButtonExpressen" Content="Expressen" GroupName="Websites" Height="15"/>
+                <RadioButton x:Name="radioButtonDN" Content="Dagens Nyheter" GroupName="Websites" Height="15"/>
+
+            </StackPanel>
+        </GroupBox>
+
+    </Grid>
+</Window>

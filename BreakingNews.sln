@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingNews", "BreakingNews\BreakingNews.csproj", "{0E3BEBA1-10B2-4C9D-BC90-CB373C8DD5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingNewsTest", "BreakingNewsTest\BreakingNewsTest.csproj", "{78ACA1ED-7234-4FDE-8017-9DC8008C0A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{3945A684-4637-4BB0-8B8D-4496068A3EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E3BEBA1-10B2-4C9D-BC90-CB373C8DD5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3BEBA1-10B2-4C9D-BC90-CB373C8DD5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3BEBA1-10B2-4C9D-BC90-CB373C8DD5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3BEBA1-10B2-4C9D-BC90-CB373C8DD5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78ACA1ED-7234-4FDE-8017-9DC8008C0A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78ACA1ED-7234-4FDE-8017-9DC8008C0A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78ACA1ED-7234-4FDE-8017-9DC8008C0A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78ACA1ED-7234-4FDE-8017-9DC8008C0A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3945A684-4637-4BB0-8B8D-4496068A3EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3945A684-4637-4BB0-8B8D-4496068A3EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3945A684-4637-4BB0-8B8D-4496068A3EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3945A684-4637-4BB0-8B8D-4496068A3EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
